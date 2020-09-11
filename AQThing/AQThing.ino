@@ -1,6 +1,8 @@
-/*
- *  Simple HTTP get webclient test
- */
+// AQThing by Brian Enigma <brian@netninja.com>.
+// https://github.com/BrianEnigma/AQThing
+//
+// Copyright 2020, distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+// http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -20,7 +22,10 @@ const GFXfont *fontNumerals= &FreeSansBold18pt7b;
 #define SCREEN_HEIGHT 32 // OLED display height, in pixels
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire);
 
+// Define this to use fake data instead of connecting to WiFi. Useful for screen layout work.
 //#define FAKE_DATA
+
+// Define this to debug the JSON processing code.
 //#define DEBUG_JSON
 
 void setup() 
