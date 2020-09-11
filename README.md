@@ -2,7 +2,7 @@
 
 AQThing is an small Internet of Things (IoT) device that displays the current Air Quality Index, updated hourly.
 
-
+![thing](thing.jpg)
 
 ## Prerequisites
 
